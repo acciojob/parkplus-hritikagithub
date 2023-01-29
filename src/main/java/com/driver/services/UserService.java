@@ -1,6 +1,8 @@
 package com.driver.services;
 
 
+import org.apache.catalina.User;
+
 public interface UserService {
 
 	void deleteUser(Integer userId);
