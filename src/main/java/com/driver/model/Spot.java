@@ -79,4 +79,12 @@ public class Spot {
     public void setReservationList(List<Reservation> reservationList) {
         this.reservationEntityList = reservationList;
     }
+
+    public void setSpotType(SpotType spotType) {
+        this.spotType = spotType;
+    }
+
+    public SpotType getSpotType() {
+        return spotType;
+    }
 }
