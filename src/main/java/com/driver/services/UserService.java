@@ -1,7 +1,7 @@
 package com.driver.services;
 
 
-import org.apache.catalina.User;
+import com.driver.model.User;
 
 public interface UserService {
 
